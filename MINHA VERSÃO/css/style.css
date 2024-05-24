@@ -1,0 +1,14 @@
+ 
+@import url(nav.css);
+@import url(introducao.css);
+@import url(experiencia.css);
+@import url(formacao.css);
+@import url(footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
