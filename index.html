@@ -4,146 +4,205 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O melhor clube de benefícios da sua região">
+    <meta name="keywords" content="desconto, clube de benefícios">
     <meta name="author" content="isszfre/isszfreitas">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Portfolio 1 </title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+    <title>UNIDESCONTO - UM CLUBE DE BENEFÍCIOS</title>
+
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body {
+            background-color: var(--white);
+            font-family: var(--hind);
+        }
     </style>
 </head>
 
 <body>
-
-    <header>
-
-        <nav>
-            <h1 class="titulo">ANA YUMI</h1>
-            <div class="navbar">
-                <ul>
-                    <li><a href="#exp">Experiência</a></li>
-                    <li><a href="#form">Formação</a></li>
-                    <li><a href="#footer">Contato</a></li>
-                </ul>
-            </div> <!--navbar-->
-        </nav>
+    <header id="header" class="header-bg header">
+        <nav class="nav" id="nav">
+            <a id="nav-logo" href="index.html"><img class="nav-logo" src="IMG/uni branca.svg" alt=""></a>
+            <a id="nav-logo-1" href="index.html"><img class="nav-logo" src="IMG/uni azul e roxo.svg" alt=""></a>
+            <ul class="navbar" id="navbar">
+                <li><a href="index.html" title="página inicial">Inicio</a></li>
+                <li><a href="quemsomos.html" title="Quem Somos">Quem Somos</a></li>
+                <li><a href="">Seja Parceiro</a></li>
+                <li><a href="">Ajuda</a></li>
+                <div class="nav-btn" id="nav-btn">
+                    <button href="" id="btn-entrar"><i class="fa-regular fa-user"></i>Entrar na Conta</button>
+                    <button onclick="window.location.href='planos.html';" id="btn-abrir" title="Nosso Planos UNI" id="btn-abrir"><i class="fa-solid fa-arrow-right fa-rotate-by" style="color: #010f1e; --fa-rotate-angle: 300deg;"></i>Abra sua Conta</button>
+                </div> <!--nav-btn-->
+            </ul>
+        </nav> <!--nav-->
     </header>
-
-    <main>
-        <article id="introducao"> <!--introducao-->
-            <section class="img">
-                <img src="img/perfil.jpg" alt="">
-            </section> <!--img-->
-            <section class="texto-principal">
-                <img class="detalhe" src="img/detalhe.svg" alt="">
-                <h2>Psicologa<br>
-                    Crocheteira &<br>
-                    Designer UX/UI</h2>
-                <p>Localizado em Santos-SP</p>
-            </section>
-        </article> <!--introducao-->
+    <main class="main-bg">
+        <div class="main">
+            <div class="main-text">
+                <p class="main-1">Já faz parte? Entre na sua conta agora!<button class="btn-entrar">Entrar na Conta</button></p>
+                <h1 id="main-titulo">UNIDESCONTO</h1>
+                <p class="main-2">Mais do que um beneficio, mas uma assinatura de sucesso!</p>
+                <p class="main-3">Faça parte do maior clube de benefícios do Brasil, onde você garante descontos para todos os produtos e áreas. lorem</p>
+            </div> <!--main-text-->
+            <div class="main-img">
+                <img src="IMG/file1.png" alt="cartão UNIDESCONTO">
+            </div> <!--main-img-->
+        </div> <!--main-->
+        <!-- <div class="detalhe-main">
+            <img class="detalhe-main-1" src="IMG/right-arrow (2).png" alt="icone">
+        </div> detalhe-main -->
     </main>
-
-    <section aria-label="Experiência" class="exp" id="exp">
-        <h3 class="subtitulo">Experiência</h3>
-        <div class="exp-2">
-            <p class="texto-exp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti veniam laborum pariatur delectus omnis incidunt tenetur, accusantium, iure numquam officiis minima, recusandae dolor odio repudiandae harum ipsam voluptate eos aspernatur.</p>
-
-            <div class="empresas">
-                <span class="empresas-ano">2003</span>
-                <h4 class="empresas-titulo">HOTMAIL</h4>
-                <p class="empresas-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit!Lorem ipsum dolor sit amet consectetur adipisicing elit!Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
-                <span class="atributos">GMAIL</span>
-                <ul class="empresas-atributos">
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
+    <article class="section-2">
+        <h2>OS MELHORES <span class="section-2-span" style="color: var(--roxo-1);">BENEFICIOS</span></h2>
+        <div class="conteiner-card-1">
+            <div class="card-1">
+                <img class="card-1-logo-colorida" src="IMG/uni azul e roxo.svg" alt="logo unidesconto">
+                <img class="card-1-logo-branca" src="IMG/uni branca.svg" alt="logo unidesconto">
+                <h3>DWADW</h3>
+                <ul class="card-1-ul">
+                    <li>Dawdwadawdaw</li>
+                    <li>Dawdwadawdaw</li>
+                    <li>Dawdwadawdaw</li>
                 </ul>
-            </div> <!--empresas-->
-            <div class="empresas">
-                <span class="empresas-ano">2003</span>
-                <h4 class="empresas-titulo">HOTMAIL</h4>
-                <p class="empresas-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit!Lorem ipsum dolor sit amet consectetur adipisicing elit!Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
-                <span class="atributos">GMAIL</span>
-                <ul class="empresas-atributos">
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
+                <a href="./">dawdawdwadwdaw<i class="fa-solid fa-arrow-right"></i></a>
+            </div> <!--card-1-->
+            <div class="card-1">
+                <img class="card-1-logo-colorida" src="IMG/uni azul e roxo.svg" alt="logo unidesconto">
+                <img class="card-1-logo-branca" src="IMG/uni branca.svg" alt="logo unidesconto">
+                <h3>DWADW</h3>
+                <ul class="card-1-ul">
+                    <li>Dawdwadawdaw</li>
+                    <li>Dawdwadawdaw</li>
+                    <li>Dawdwadawdaw</li>
                 </ul>
-            </div> <!--empresas-->
-            <div class="empresas">
-                <span class="empresas-ano">2003</span>
-                <h4 class="empresas-titulo">HOTMAIL</h4>
-                <p class="empresas-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit!Lorem ipsum dolor sit amet consectetur adipisicing elit!Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
-                <span class="atributos">GMAIL</span>
-                <ul class="empresas-atributos">
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
-                    <li><span>TESTE</span></li>
+                <a href="./">dawdawdwadwdaw<i class="fa-solid fa-arrow-right"></i></a>
+            </div> <!--card-1-->
+            <div class="card-1">
+                <img class="card-1-logo-colorida" src="IMG/uni azul e roxo.svg" alt="logo unidesconto">
+                <img class="card-1-logo-branca" src="IMG/uni branca.svg" alt="logo unidesconto">
+                <h3>DWADW</h3>
+                <ul class="card-1-ul">
+                    <li>Dawdwadawdaw</li>
+                    <li>Dawdwadawdaw</li>
+                    <li>Dawdwadawdaw</li>
                 </ul>
-            </div> <!--empresas-->
-        </div> <!--exp-2-->
-    </section aria-label="Experiência"> <!--exp-->
-
-    <section aria-label="Formação" id="form">
-        <div class="form">
-            <h3 class="form-subtitulo">FORMAÇÃO</h3>
-            <div class="form-2">
-                <p class="form-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid saepe voluptates, quaerat numquam dignissimos natus quod placeat rerum reiciendis veniam non ut, eum soluta nobis id nemo amet vero? Cum?</p>
-                <ul class="card">
-                    <li class="formacao">
-                        <span class="ensino">TECNÓLOGO</span>
-                        <p class="curso">GESTÃO EM T.I.</p>
-                        <span class="instituicao">UNIFAEL</span>
-                    </li>
-                    <li class="formacao">
-                        <span class="ensino">TECNÓLOGO</span>
-                        <p class="curso">GESTÃO EM T.I.</p>
-                        <span class="instituicao">UNIFAEL</span>
-                    </li>
-                    <li class="formacao">
-                        <span class="ensino">TECNÓLOGO</span>
-                        <p class="curso">GESTÃO EM T.I.</p>
-                        <span class="instituicao">UNIFAEL</span>
-                    </li>
-                </ul>
-                <div class="intensivo">
-                    <h4 class="intensivo-nome">CURSOS INTENSIVOS</h4>
-                    <ul class="intensivo-cursos">
-                        <li>CURSO 1<span>40H</span></li>
-                        <li>CURSO 1<span>40H</span></li>
-                    </ul>
+                <a href="">dawdawdwadwdaw<i class="fa-solid fa-arrow-right"></i></a>
+            </div> <!--card-1-->
+        </div> <!--conteiner-card-1-->
+    </article> <!--section-2-->
+    <article class="section-3">
+        <div class="section-3-display">
+            <div class="section-3-titulo">
+                <button class="section-3-button">Entrar na Conta</button>
+                <span> | Ddwk ddwad dwakdwa <span style="font-weight: 700;">ojpdwajda!</span></span>
+            </div> <!--section-3-titulo-->
+            <div class="section-3-grid">
+                <img class="section-3-cell" src="IMG/cell.png" alt="celular imagem">
+                <div class="section-3-texto">
+                    <h4>DWADWAD ADWADWAD DADWA DWAD AWD DADAW DWD!</h4>
+                    <div class="section-3-texto-card">
+                        <img class="section-3-texto-card-img" src="IMG/uni branca.svg" alt="logo unidesconto">
+                        <h5>DAJDL AWNL DWDWADWADD</h5>
+                        <p>Ddakldalwjndla dwladlkawndlaw dpjawdnwap pjawdalw ndla dawjdç dawjk dawd aw pwao djw ajddka wkda wkçld mwakç </p>
+                    </div> <!--section-3-texto-card-->
+                    <div class="section-3-texto-card">
+                        <img class="section-3-texto-card-img" src="IMG/uni branca.svg" alt="logo unidesconto">
+                        <h5>DAJDL AWNL DWDWADWADD </h5>
+                        <p>Ddakldalwjndla dwladlkawndlaw dpjawdnwap pjawdalw ndla dawjdç dawjk dawd aw pwao djw ajddka wkda wkçld mwakç </p>
+                    </div> <!--section-3-texto-card-->
+                    <div class="section-3-texto-card">
+                        <img class="section-3-texto-card-img" src="IMG/uni branca.svg" alt="logo unidesconto">
+                        <h5>DAJDL AWNL DWDWADWADD</h5>
+                        <p>Ddakldalwjndla dwladlkawndlaw dpjawdnwap pjawdalw ndla dawjdç dawjk dawd aw pwao djw ajddka wkda wkçld mwakç </p>
+                    </div> <!--section-3-texto-card-->
+                </div> <!--section-3-texto-->
+            </div> <!--section-3-grid-->
+        </div> <!--section-3-display-->
+    </article> <!--section-3-->
+    <article class="section-4">
+        <section class="section-4-display">
+            <div class="section-4-card">
+                <div class="card-2">
+                    <img src="IMG/comprar-online.png" alt="icon">
+                    <span>DIVERSOS VOUCHERS</span>
                 </div>
-                <div class="intensivo">
-                    <h4 class="intensivo-nome">CURSOS INTENSIVOS</h4>
-                    <ul class="idiomas-cursos">
-                        <li>CURSO 1<span>/40H</span></li>
-                        <li>CURSO 1<span>/40H</span></li>
-                    </ul>
+                <div class="card-2">
+                    <img src="IMG/acordo (1).png" alt="icon">
+                    <span>DIVERSOS VOUCHERS</span>
                 </div>
-            </div> <!--form-2-->
-        </div>
-    </section>
-
-    <footer aria-label="footer" id="footer" class="footer">
-        <img class="detalhe-2" src="img/detalhe.svg" alt="">
-        <div class="disponivel">
-            <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
-        </div>
-        <div class="contato">
-            <span>djawbdawnddawd</span>
-            <span>djawbdawnddawd</span>
-            <a href="#">@instagram</a>
-        </div>
-        <p class="direitos-reservados">
-            Todos os direitos reservados
-        </p>
-    </footer>
+                <div class="card-2">
+                    <img src="IMG/medalha (1).png" alt="icon">
+                    <span>DIVERSOS VOUCHERS</span>
+                </div>
+                <div class="card-2">
+                    <img src="IMG/hospital.png" alt="icon">
+                    <span>DIVERSOS VOUCHERS</span>
+                </div>
+            </div> <!--section-4-card-->
+            <div class="section-4-texto">
+                <div class="section-4-texto-1">
+                    <span> <strong style="color: var(--roxo-1);">jlwadjwkda</strong> | dadw wdawd dawdaw daddwdwad</span>
+                    <h4>DWADWAD ADWADWAD DADWA DWADAWDAWWD</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, impedit qui? Excepturi quis a accusantium animi facere. Ab officiis debitis impedit consequatur laudantium nulla eveniet, illum iste minima, nisi molestias.</p>
+                </div> <!--section-4-texto-1-->
+                <div class="section-4-texto-2">
+                    <ul class="section-4-texto-ul">
+                        <li>elit. Accusantium, impedit qui? <strong style="color: var(--roxo-1);">wdwadawd</strong> dwdaw ddwaw</li>
+                        <li>elit. Accusantium, impedit qui? wdwadawd dwdaw <strong style="color: var(--roxo-1);">ddwaw</strong></li>
+                        <li><strong style="color: var(--roxo-1);">elit. Accusantium, impedit qui? </strong> wdwadawd dwdaw ddwaw</li>
+                    </ul> <!--section-4-texto-ul-->
+                    <div class="section-4-texto-3">
+                        <a href=""><img src="IMG/play store.png" alt="play store"></a>
+                        <a href=""><img src="IMG/app store.png" alt="app store"></a>
+                    </div> <!--section-4-texto-3-->
+                </div> <!--section-4-texto-2-->
+            </div> <!--section-4-texto-->
+        </section> <!--section-4-display-->
+    </article> <!--section-4-->
+    <section class="section-5" aria-label="Venha ver os nosso Planos">
+        <div class="section-5-display">
+            <h6>Venha ver os nossos planos <span style="color: var(--roxo-1);">agora!</span></h6>
+            <button onclick="window.location.href='planos.html';" title="Nosso Planos UNI" class="section-5-button">CLIQUE AQUI</button>
+        </div> <!--section-5-display-->
+    </section> <!--section-5-->
+    <footer class="footer">
+        <div class="footer-display">
+            <img src="IMG/uni branca.svg" alt="logo unidesconto">
+            <div class="footer-text">
+                <h6>Inicio</h6>
+                <ul>
+                    <li><a href="index.html" title="página inicial">Home</a></li>
+                    <li><a href="">Entrar na Conta</a></li>
+                    <li><a href="planos.html" title="Nossos Planos UNI">Cadastra-se</a></li>
+                </ul>
+            </div> <!--footer-text-->
+            <div class="footer-text">
+                <h6>Sobre-nós</h6>
+                <ul>
+                    <li><a href="quemsomos.html" title="Quem Somos">Quem Somos</a></li>
+                    <li><a href="planos.html" title="Nossos Planos UNI">Planos</a></li>
+                    <li><a href="TERMOS/Termos e Condições UNIDESCONTO.pdf" download="Termos e Condições Unidesconto" title="download termos">Termos e Condições</a></li>
+                </ul>
+            </div> <!--footer-text-->
+            <div class="footer-text">
+                <h6>Suporte</h6>
+                <ul>
+                    <li><a href="">WhatsApp</a></li>
+                    <li><a href="">e-mail</a></li>
+                    <li><a href="IMG/cell.png" download="meu-arquivo.png">Chat</a></li>
+                </ul>
+            </div> <!--footer-text-->
+            <div class="footer-sociais">
+                <a href=""><img src="IMG/facebook (1).png" alt="logo facebook"></a>
+                <a href=""><img src="IMG/instagram (1).png" alt="logo instagram"></a>
+                <a href=""><img src="IMG/whatsapp.png" alt="logo whatsapp"></a>
+            </div> <!--footer-sociais-->
+        </div> <!--footer-display-->
+        <span class="copyright">© Todos os Direitos Reservados 2024</span>
+    </footer><!--footer-->
+    <script src="nav.js"></script>
 </body>
 
 </html>

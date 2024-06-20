@@ -1,14 +1,49 @@
- 
-@import url(nav.css);
-@import url(introducao.css);
-@import url(experiencia.css);
-@import url(formacao.css);
+@import url(header.css);
+@import url(main.css);
+@import url(section-1.css);
+@import url(section-2.css);
+@import url(section-3.css);
+@import url(section-4.css);
+@import url(section-5.css);
+@import url(section-6.css);
+@import url(section-7.css);
+@import url(section-8.css);
 @import url(footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
 
-* {
+/* animações */
+
+*, li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Fira Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+:root {
+  --azul-btn: #010f1e;
+  --azul-btn-2: #00356d;
+  --cinza-btn: #c2cdd8;
+  --cinza-btn-2: #cbd5df60;
+  --azul-1: #021a34;
+  --azul-2: #547192;
+  --roxo-1: #371b7e;
+  --roxo-2: #895bff;
+  --roxo-3: #6f5aa2;
+  --preto-1: #010f1e;
+  --cinza-1: #ebeff3;
+  --cinza-2: #c3cdd8;
+  --hind: "Hind", sans-serif;
+  --min-font: 0,625rem;
+  --padrao: 1.25rem;
+  --titulo: 1.5rem;
+  --titulo-grande: 2rem;
+  --titulo-enorme: 3rem;
+}

@@ -1,0 +1,235 @@
+.titulo-planos {
+  padding-top: 125px;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-planos h1 {
+  font-family: var(--hind);
+  font-size: 3rem;
+}
+
+.titulo-planos h1 span {
+  color: var(--roxo-1);
+  text-decoration: underline;
+}
+
+.article-1 {
+  padding: 50px 0px 50px 0px;
+  font-family: var(--hind);
+  display: grid;
+}
+
+.section-8-display {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.planos-preco {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 0px 20px 20px 20px;
+  padding: 40px;
+}
+
+.planos-preco a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planos-preco i {
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.planos-preco a:hover i {
+  transform: rotate(-90deg);
+  transition: 0.3s;
+}
+
+.planos-preco:nth-child(3) {
+  background-color: var(--roxo-1);
+  color: white;
+}
+
+#preco-logo-azul {
+  width: 50px;
+  place-self: center;
+}
+
+#preco-logo-branca {
+  width: 50px;
+  place-self: center;
+}
+
+.planos-planos {
+  text-align: center;
+  border: 1px solid var(--azul-1);
+  width: 90px;
+  border-radius: 50px;
+  place-self: center;
+  margin: 10px 0px;
+  font-size: 0.6rem;
+  color: var(--roxo-1);
+  cursor: pointer;
+}
+
+.plano-nome {
+  font-size: var(--titulo-enorme);
+  color: var(--preto-1);
+  text-align: center;
+  margin: -15px 0px;
+}
+
+.planos-valor {
+  font-size: var(--titulo-grande);
+  color: var(--azul-1);
+  font-weight: 700;
+  border-bottom: 2px solid var(--azul-1);
+  text-align: center;
+}
+
+.planos-valor span {
+  font-size: 15px;
+  color: var(--preto-1);
+}
+
+.seta-beneficio-azul {
+  margin-right: 10px;
+}
+
+.beneficio-planos {
+  margin-top: 10px;
+}
+
+.beneficio-planos li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.seta-beneficio-branca {
+  margin-right: 10px;
+}
+
+.planos-btn {
+  padding: 15px 20px;
+  background: var(--azul-1);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 0px 10px 10px 10px;
+  margin: 10px 0px;
+  font-size: var(--padrao);
+  transition: 0.3s;
+}
+
+.planos-btn:hover {
+  transform: scale(0.9);
+  background-color: var(--roxo-1);
+  transition: 0.3s;
+}
+
+.planos-automaticamente {
+  text-align: center;
+  line-height: 1.1;
+  color: gray;
+}
+
+.recomendado {
+  position: relative;
+}
+
+.recomendado::before {
+  content: "Recomendado";
+  align-self: center;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  font-size: 0.8rem;
+  background-color: var(--roxo-2);
+  top: -20px;
+  left: 0px;
+  width: 150px;
+  height: 20px;
+  position: absolute;
+}
+
+.beneficio-planos-premium {
+  margin-top: 10px;
+}
+
+.beneficio-planos-premium li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.planos-planos-premium {
+  text-align: center;
+  border: 1px solid white;
+  width: 90px;
+  border-radius: 50px;
+  place-self: center;
+  margin: 10px 0px;
+  font-size: 0.6rem;
+  color: white;
+  cursor: pointer;
+}
+
+.plano-nome-premium {
+  font-size: var(--titulo-enorme);
+  color: #fff;
+  text-align: center;
+  margin: -15px 0px;
+}
+
+.planos-valor-premium {
+  font-size: var(--titulo-grande);
+  color: var(--roxo-2);
+  font-weight: 700;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+.planos-automaticamente-premium {
+  text-align: center;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.planos-btn-premium {
+  padding: 15px 20px;
+  background: var(--roxo-2);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  border-radius: 0px 10px 10px 10px;
+  margin: 10px 0px;
+  font-size: var(--padrao);
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planos-btn-premium:hover {
+  transform: scale(0.9);
+  background-color: var(--azul-1);
+  transition: 0.3s;
+}

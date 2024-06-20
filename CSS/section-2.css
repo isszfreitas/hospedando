@@ -1,0 +1,146 @@
+.section-2 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--hind);
+  height: 650px;
+  padding-bottom: 100px;
+}
+
+.section-2 h2 {
+  text-align: center;
+  font-size: 3.125rem;
+  padding: 50px 0px;
+}
+
+.section-2 span {
+  position: relative;
+  cursor: pointer;
+}
+
+.section-2-span::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  top: 0px;
+  right: 0px;
+  background: var(--roxo-1);
+  position: absolute;
+}
+
+.section-2-span:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
+
+/* .section-2-span {
+  position: relative;
+}
+ */
+
+/* .section-2-span::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--roxo-1);
+  position: absolute;
+} */
+
+.conteiner-card-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 350px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: var(--cinza-1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.205);
+  color: var(--azul-1);
+  padding: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-1:hover {
+  background-color: var(--azul-1);
+  color: #fff;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.card-1:hover h3 {
+  color: var(--roxo-2);
+  transition: 0.2s;
+}
+
+.card-1:hover a {
+  color: var(--roxo-2);
+  transition: 0.2s;
+}
+
+.card-1:hover i {
+  color: var(--roxo-2);
+  transition: 0.2s;
+}
+
+.card-1:hover .card-1-logo-branca {
+  display: block;
+  transition: 0.2s;
+}
+
+.card-1:hover .card-1-logo-colorida {
+  display: none;
+  transition: 0.2s;
+}
+
+.card-1 img {
+  height: 54px;
+}
+
+.card-1-logo-colorida {
+  display: block;
+}
+
+.card-1-logo-branca {
+  display: none;
+}
+
+.card-1 h3 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card-1-ul li {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.card-1-ul:nth-child(3) {
+  margin-bottom: 10px;
+}
+
+.card-1 a {
+  color: var(--azul-1);
+  font-size: 1.25rem;
+}
+
+.card-1 a:hover i {
+  margin-left: 20px;
+  transform: rotate(-90deg);
+  transition: 0.2s;
+}
+
+.card-1 i {
+  margin-left: 10px;
+}
